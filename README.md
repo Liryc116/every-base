@@ -5,6 +5,7 @@ Trying to basic programs in multiple languages
 
 The bases are (non-exhaustive list):
     - FizzBuzz
+    - DigitCount
     - Factorial
     - Fibbonacci
     - IsPrime
