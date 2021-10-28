@@ -3,7 +3,7 @@
 Trying to basic programs in multiple languages
 
 
-The bases are (non-exhaustive list):
+Some of the bases are (non-exhaustive list):
     - FizzBuzz
     - DigitCount
     - Factorial
@@ -13,8 +13,11 @@ The bases are (non-exhaustive list):
     - SquareRoot
     - Power
     - PowerOfTwo
+    - Strlen
     - BinSearch
     - BubbleSort
     - QucikSort
+    - Atoi
+    - Atoui
 
 The function will be optimized in the limit of my capacities

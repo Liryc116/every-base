@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+// The optimisation depends on the cost of the print
 void fizzbuzz(unsigned long n)
 {
     for(unsigned long i = 1; i<=n; i++)
