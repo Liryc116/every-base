@@ -3,5 +3,5 @@
 
 int is_perfect_number(unsigned long n)
 {
-	return n==divisor_sum(n);
+	return n!=0 && n==divisor_sum(n);
 }

@@ -1,5 +1,8 @@
 unsigned long power(unsigned long x, char n)
 {
+    if(x<=1)
+        return 1;
+
     long result = 1;
 
     while(n>0)

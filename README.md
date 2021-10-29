@@ -14,6 +14,7 @@ Some of the bases are (non-exhaustive list):
     - Power
     - PowerOfTwo
     - Strlen
+    - Is Sorted
     - BinSearch
     - BubbleSort
     - QucikSort
