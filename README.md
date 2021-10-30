@@ -13,8 +13,9 @@ Some of the bases are (non-exhaustive list):
     - SquareRoot
     - Power
     - PowerOfTwo
+    - Swap
     - Strlen
-    - Is Sorted
+    - IsSorted
     - BinSearch
     - BubbleSort
     - QucikSort
