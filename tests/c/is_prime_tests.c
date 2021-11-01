@@ -22,6 +22,15 @@ Test(is_prime, 1_is_0)
     cr_assert_eq(0, res);
 }
 
+Test(is_prime, 2_is_1)
+{
+    unsigned long res;
+
+    res = is_prime(2);
+
+    cr_assert_eq(1, res);
+}
+
 Test(is_prime, 13_is_1)
 {
     unsigned long res;
