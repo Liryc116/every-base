@@ -16,6 +16,5 @@ int binsearch(int* array, size_t length, int x)
             l = mid + 1;
     }
 
-    return 0
-
+    return 0;
 }

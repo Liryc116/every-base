@@ -1,9 +1,6 @@
 unsigned long power(unsigned long x, char n)
 {
-    if(x==1)
-        return 1;
-
-    long result = 1;
+    double res = 1;
 
     while(n>0)
     {
@@ -14,10 +11,10 @@ unsigned long power(unsigned long x, char n)
         }
         else
         {
-            result*=x;
+            res*=x;
             n--;
         }
     }
 
-    return result;
+    return res;
 }

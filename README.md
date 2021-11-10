@@ -1,6 +1,12 @@
 # every-base
 
 Trying to basic programs in multiple languages
+For now the following languages are aimed:
+    - C
+    - C#
+    - CPP
+    - Python
+    - Assembly (68k to begin maybe other later)
 
 
 Some of the bases are (non-exhaustive list):
