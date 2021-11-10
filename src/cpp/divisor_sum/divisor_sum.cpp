@@ -6,7 +6,7 @@ unsigned long divisor_sum(unsigned long n)
     unsigned long sum = 1;
     unsigned long i;
 
-    for(i = 0; i*i<sum; i++)
+    for(i = 2; i*i<n; i++)
     {
         if(n%i==0)
             sum+= i + (n/i);
