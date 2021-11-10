@@ -1,8 +1,5 @@
 unsigned long fibo(unsigned long n)
 {
-	// Equivalent to: if (!n)
-	if (n==0)
-		return 0;
 
 	unsigned long f0 = 0;
 	unsigned long f1 = 1;
