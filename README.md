@@ -21,6 +21,8 @@ Some of the bases are (non-exhaustive list):
     - PowerOfTwo
     - Swap
     - Strlen
+    - ToLower
+    - ToUpper
     - IsSorted
     - BinSearch
     - BubbleSort
