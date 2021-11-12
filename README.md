@@ -6,7 +6,7 @@ For now the following languages are aimed:
     - C#
     - CPP
     - Python
-    - Assembly (68k to begin maybe other later)
+    - a bit of Assembly (68k to begin maybe other later)
 
 
 Some of the bases are (non-exhaustive list):
@@ -15,6 +15,7 @@ Some of the bases are (non-exhaustive list):
     - Factorial
     - Fibbonacci
     - IsPrime
+    - SieveOfErathostene
     - SumOfDivisor
     - SquareRoot
     - Power
@@ -23,7 +24,12 @@ Some of the bases are (non-exhaustive list):
     - Strlen
     - ToLower
     - ToUpper
+    - Str(n)Cat
+    - CharHistogram
+    - CountWords
+    - ArrayRotation
     - IsSorted
+    - MergeSorted
     - BinSearch
     - BubbleSort
     - QucikSort
