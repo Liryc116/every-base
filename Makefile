@@ -28,6 +28,10 @@ all: $(TARGET)
 run-test: $(TARGET)
 	./$(TARGET)
 
+
+format-check-c:
+	clang-format $(C_FILES)
+
 clean:
 	${RM} -rf $(BUILD) $(TARGET)
 
