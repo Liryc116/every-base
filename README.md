@@ -15,7 +15,7 @@ Some of the bases are (non-exhaustive list):
     - Factorial
     - Fibbonacci
     - IsPrime
-    - SieveOfErathostene
+    - SieveOfEratosthene
     - SumOfDivisor
     - SquareRoot
     - Power
