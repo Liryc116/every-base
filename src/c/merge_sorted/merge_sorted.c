@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 void merge_sorted(int* a1, size_t len1, int* a2, size_t len2, int* a)
 {
     size_t i, k, l;

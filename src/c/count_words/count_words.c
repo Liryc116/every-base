@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 size_t count_words(char* str)
 {
     size_t res = 0;

@@ -1,4 +1,6 @@
 unit_test
+c_test
+cpp_test
 
 # Prerequisites
 *.d

@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 void letter_histogram(char* str, char h[26])
 {
     for(size_t i = 0; i<26;h[i]=0, i++);
