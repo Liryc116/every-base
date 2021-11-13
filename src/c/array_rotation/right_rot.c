@@ -1,8 +1,10 @@
+#include <stddef.h>
+
 void right_rot(int* a, size_t len, size_t n)
 {
     n = n%len;
 
-    for(size_t i = 0; i<n;)
+    for(size_t i = 0; i<n; i++)
     {
         int tmp = a[len-1];
 
