@@ -1,8 +1,10 @@
 unit_test
-c_test
+c-test
 cpp_test
+build/
 
 *.swp
+
 # Prerequisites
 *.d
 
