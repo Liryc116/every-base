@@ -16,8 +16,8 @@ jobs:
         tar -xvf criterion-v2.3.3-linux-x86_64.tar.bz2
         sudo cp -r criterion-v2.3.3/* /usr
 
-    - name: clang-format Check
-      run: make format-check
+    - name: clang-format C-Check
+      run: make format-check-c
 
     - name: Build (gcc)
       run: |
