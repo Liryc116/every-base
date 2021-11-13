@@ -2,6 +2,7 @@ unit_test
 c_test
 cpp_test
 
+*.swp
 # Prerequisites
 *.d
 
