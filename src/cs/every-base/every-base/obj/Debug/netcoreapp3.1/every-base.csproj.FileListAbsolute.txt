@@ -1,0 +1,13 @@
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/bin/Debug/netcoreapp3.1/every-base
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/bin/Debug/netcoreapp3.1/every-base.deps.json
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/bin/Debug/netcoreapp3.1/every-base.runtimeconfig.json
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/bin/Debug/netcoreapp3.1/every-base.runtimeconfig.dev.json
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/bin/Debug/netcoreapp3.1/every-base.dll
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/bin/Debug/netcoreapp3.1/every-base.pdb
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/obj/Debug/netcoreapp3.1/every-base.csprojAssemblyReference.cache
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/obj/Debug/netcoreapp3.1/every-base.AssemblyInfoInputs.cache
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/obj/Debug/netcoreapp3.1/every-base.AssemblyInfo.cs
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/obj/Debug/netcoreapp3.1/every-base.csproj.CoreCompileInputs.cache
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/obj/Debug/netcoreapp3.1/every-base.dll
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/obj/Debug/netcoreapp3.1/every-base.pdb
+/home/cyril/Documents/projets-perso/every-base/src/cs/every-base/every-base/obj/Debug/netcoreapp3.1/every-base.genruntimeconfig.cache

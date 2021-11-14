@@ -4,6 +4,8 @@ cpp_test
 build/
 
 *.swp
+src/cs/every-base/obj/
+src/cs/every-base/bin/
 
 # Prerequisites
 *.d
