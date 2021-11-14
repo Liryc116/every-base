@@ -80,7 +80,7 @@ def count_words(s):
     separated = True
 
     for c in s:
-        if((c>='a' and c<='z') or (c>='A' and c<='Z') or (c>='1'and c<='9')):
+        if((c>='a' and c<='z') or (c>='A' and c<='Z') or (c>='0'and c<='9')):
             if separated:
                 count+=1
                 separated=False
