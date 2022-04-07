@@ -8,9 +8,9 @@ void insert_sort(int *array, size_t len)
     {
         int tmp = array[i];
         size_t k = i;
-        for(; k>0 && array[k-1]>i; k--)
+        for(; k>0 && array[k-1]>tmp; k--)
             array[k]=array[k-1];
-        array[i]=tmp;
+        array[k]=tmp;
     }
 }
 
@@ -48,12 +48,12 @@ void tim_sort(int *array, size_t len)
     for(size_t i = 0; i<len; i+=RUN)
         insert_sort(&array[i], min(RUN, len));
 
-    for(size_t i = RUN; size<len; size*=2)
+    for(size_t i = RUN; i<len; i*=2)
     {
-        for (size_t left = 0; left < len; left += 2*size)
+        for (size_t left = 0; left < len; left += 2*i)
         {
-            size_t mid = left + size - 1;
-            size_t right = min((left + 2*size - 1), (len-1));
+            size_t mid = left + i - 1;
+            size_t right = min((left + 2*i - 1), (len-1));
 
             if(mid < right)
                 merge(&array[left], mid, right);
