@@ -6,6 +6,8 @@ build/
 *.swp
 src/cs/every-base/obj/
 src/cs/every-base/bin/
+src/cs/every-base/every-base/obj/
+src/cs/every-base/every-base/bin/
 
 # Prerequisites
 *.d
