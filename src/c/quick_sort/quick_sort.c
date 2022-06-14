@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "swap.h"
+#include "../swap/swap.h"
 
 size_t partition(int* array, size_t length)
 {
