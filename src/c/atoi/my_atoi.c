@@ -1,4 +1,4 @@
-#include "my_atoui.h"
+#include "../atoui/my_atoui.h"
 
 int my_atoi(char* str)
 {

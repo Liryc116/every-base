@@ -10,8 +10,8 @@ unsigned long divisor_sum(unsigned long n)
     // Optimize odd numbers
     if (n%2)
     {
-	i=3;
-	step++;
+	    i=3;
+	    step++;
     }
 
     for(; i*i<n; i+=step)
@@ -22,7 +22,7 @@ unsigned long divisor_sum(unsigned long n)
     }
 
     if(i*i==n)
-	sum+=i;
+	    sum+=i;
 
     return sum;
 }

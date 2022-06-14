@@ -1,7 +1,7 @@
-#include <stdlib.h>
-#include "swap.h"
+#include "quick_sort.h"
+#include "../swap/swap.h"
 
-size_t partition(int* array, size_t length)
+static size_t partition(int* array, size_t length)
 {
     int pivot_val = *(array+length-1);
 

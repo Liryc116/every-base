@@ -10,8 +10,8 @@ unsigned long fibo(unsigned long n)
 	for(unsigned long i = 1; i<n; i++)
 	{
 		unsigned long tmp = f0;
-		f0=f1;
-		f1+=tmp;
+		f0 = f1;
+		f1 += tmp;
 	}
 
 	return f1;
