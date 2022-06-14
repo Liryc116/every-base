@@ -5,6 +5,7 @@ For now the following languages are aimed:
     - C/CPP\
     - C#\
     - Python\
+    - JavaScript\
     - a bit of Assembly (68k to begin maybe other later)
 
 

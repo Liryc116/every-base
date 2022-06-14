@@ -7,7 +7,7 @@ void fizzbuzz(unsigned long n)
     for(unsigned long i = 1; i<=n; i++)
     {
         int isDiv3;
-	    if(isDiv3=(i%3==0))
+	    if((isDiv3=(i%3==0)))
 		    printf("Fizz");
         if(i%5==0)
 		    printf("Buzz");
