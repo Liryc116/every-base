@@ -4,18 +4,26 @@ def array_rot_left(L, n):
     length = len(L)
     n = n%length
 
-    for _ in range(n):
-        for i in range(length-1):
-            swap(L, i, i+1)
+    for i in range(n):
+        moved = L[0]
+        for k in range(length-1, 0, -1):
+            tmp = L[k]
+            L[k] = moved
+            moved = tmp
+        L[0] = moved
 
 
 def array_rot_right(L, n):
     length = len(L)
     n = n%length
 
-    for _ in range(n):
-        for i in range(length-1):
-            swap(L, lenght-i-2, length-i-1)
+    for i in range(n):
+        moved = L[-1]
+        for k in range(0, length-1):
+            tmp = L[k]
+            L[k] = moved
+            moved = tmp
+        L[-1] = moved
 
 
 def atoi(s):
@@ -46,14 +54,14 @@ def bubble_sort(L):
 
 def binsearch(L, x):
     l = 0
-    r = len(L)
+    r = len(L)-1
 
     while l<=r:
         m = (l+r)//2
 
-        if L[m]==x:
+        if L[m]==x: 
             return True
-        elif L[m]<x:
+        elif L[m]>x:
             r = m-1
         else:
             l = m+1
@@ -77,15 +85,15 @@ def char_histogram(s):
 
 def count_words(s):
     count = 0
-    separated = True
+    isSeparated = True
 
     for c in s:
         if((c>='a' and c<='z') or (c>='A' and c<='Z') or (c>='0'and c<='9')):
-            if separated:
+            if isSeparated:
                 count+=1
-                separated=False
+                isSeparated=False
         else:
-            separated=True
+            isSeparated=True
 
     return count
 
@@ -233,7 +241,7 @@ def power_of_two(n):
     return 1<<n
 
 
-def quick_sort(L, lo=0, hi = -2):
+def quick_sort(L, lo = 0, hi = -2):
     if hi == -2:
         hi = len(L) - 1
     if lo<hi:

@@ -6,7 +6,7 @@ function sieve_of_eratosthenes(n)
         result[i] = true;
     result[0] = result[1] = false;
 
-    for(let i = 2; i<n; i++)
+    for(let i = 2; i*i<n; i++)
     {
         if(result[i])
         {
