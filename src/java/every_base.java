@@ -357,8 +357,11 @@ public class every_base {
             result[i] = true;
 
         for (int i = 2; i*i < n; i++) {
-            for(int k = i*i; k<n; k+=i)
-                result[k] = false;
+            if(result[i])
+            {
+                for(int k = i*i; k<n; k+=i)
+                    result[k] = false;
+            }
         }
 
         return result;
