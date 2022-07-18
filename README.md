@@ -15,13 +15,13 @@ Some of the bases are (non-exhaustive list):
     - Factorial\
     - Fibbonacci\
     - IsPrime\
-    - SieveOfEratosthene\
+    - Sieve of Eratosthene\
     - SumOfDivisor\
     - SquareRoot\
     - Power\
-    - PowerOfTwo\
+    - Power of Two\
     - Swap\
-    - Strlen\
+    - StrLen\
     - ToLower\
     - ToUpper\
     - Str(n)Cat\
@@ -29,7 +29,7 @@ Some of the bases are (non-exhaustive list):
     - CountWords\
     - ArrayRotation\
     - IsSorted\
-    - MergeSorted
+    - MergeSorted\
     - BinSearch\
     - BubbleSort\
     - QucikSort\
